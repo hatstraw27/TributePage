@@ -1,44 +1,60 @@
+html{
+    font-size: 10px;
+}
+
 body{
     background-color: hsl(47, 20%, 90%);
-    font-size: 15px;
+    font-size: 1.5rem;
     font-family: 'Libre Baskerville','Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin: 1.5rem;
+    padding: 1.5rem;
     text-align: center;
+    line-height: 1.6;
 }
 
-#title{
-    font-size: 18px;
-    font-weight: bold;
-    margin: 3em 0 1.5em 0;
+#img-div {
+    background-color: white;
+    border:1px solid #ccc;
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem 2rem rgba(0,0,0,0.19), 1rem 1rem 1rem rgba(0,0,0,0.23);
 }
 
-#title p{
-    font-weight: normal;
-}
-
-#img-div{
-    background-color:white;
-    margin: 15px 25px;
-}
-
-#img-div img{
+img{
+    display: block;
     max-width: 100%;
-    height:auto;
+    height: auto;
+    margin: auto;
 }
 
-#img-div figcaption{    
-    font-weight: 100;
-    padding:1em 0 1.5em 0;
+figcaption{
+    margin:0 2rem 3rem 2rem;
 }
 
-#tribute-info{
-    margin: 4em 20em 4em 20em;  
+#headline{
+    margin:5rem;
 }
 
-#tribute-info ul{
+ul{
+    max-width: 550px;
+    margin: 5rem auto 5rem auto;
     text-align: left;
-    padding: 2em 2em;
 }
 
-#tribute-info li{
-    padding: 1em;
+li{
+    padding: 1.5rem;
+}
+
+a{
+    opacity: 0.5;
+}
+
+a:hover{
+    opacity: 1;
+    text-decoration: unset ;
+    color: teal;
+}
+
+blockquote{
+    max-width: 550px;
+    margin: 0 auto 5rem auto;
 }
