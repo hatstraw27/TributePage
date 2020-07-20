@@ -1,0 +1,44 @@
+body{
+    background-color: hsl(47, 20%, 90%);
+    font-size: 15px;
+    font-family: 'Libre Baskerville','Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-align: center;
+}
+
+#title{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 3em 0 1.5em 0;
+}
+
+#title p{
+    font-weight: normal;
+}
+
+#img-div{
+    background-color:white;
+    margin: 15px 25px;
+}
+
+#img-div img{
+    max-width: 100%;
+    height:auto;
+}
+
+#img-div figcaption{    
+    font-weight: 100;
+    padding:1em 0 1.5em 0;
+}
+
+#tribute-info{
+    margin: 4em 20em 4em 20em;  
+}
+
+#tribute-info ul{
+    text-align: left;
+    padding: 2em 2em;
+}
+
+#tribute-info li{
+    padding: 1em;
+}
